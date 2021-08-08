@@ -5,9 +5,7 @@ export const HeaderOnly = (props) => {
   const { children } = props;
   return (
     <BrowserRouter>
-      <Header style={{ height: "50px", backgroundColor: "red" }}>
-        {children}
-      </Header>
+      <Header>{children}</Header>
     </BrowserRouter>
   );
 };
